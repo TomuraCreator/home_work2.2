@@ -1,0 +1,28 @@
+{
+  "name": "babel_dev_install",
+  "version": "1.0.0",
+  "description": "babel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TomuraCreator/home_work2.2.git"
+  },
+  "keywords": [
+    "home_work"
+  ],
+  "author": "Tomura_Kreator",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TomuraCreator/home_work2.2/issues"
+  },
+  "homepage": "https://github.com/TomuraCreator/home_work2.2#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4"
+  }
+}
